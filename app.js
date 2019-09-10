@@ -10,18 +10,32 @@ console.log('Hello')
         alert
     } else {
         alert
-    } console.log('answer is true')
+    } console.log('answer is yes')
 
     var pet = prompt('Do I only have one pet?')
     if (yes.toLowerCase() || y.toLowerCase()){
         alert
     } else {
         alert
-    } console.log('answer is true')
+    } console.log('answer is no')
 
     var city = prompt('Am I from Seattle?')
     if (yes.toLowerCase()) || y.toLowerCase()){
         alert
     } else {
         alert
-    }
+    } console.log('answer is no')
+
+    var sister = prompt('Do I have 2 sisters?')
+    if (yes.toLowerCase()) || y.toLowerCase()){
+        alert
+    } else {
+        alert
+    } console.log('answer is yes')
+
+    var mate = prompt=('Do I have two roommates?')
+    if (yes.toLowerCase()) || y.toLowerCase()){
+        alert
+    } else {
+        alert
+    } console.log('answer is yes')
