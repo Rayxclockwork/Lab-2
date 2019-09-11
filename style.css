@@ -1,11 +1,26 @@
 body {
     background-color: blanchedalmond;
+    border-style: double;
+    border-color:rgb(114, 169, 216);
+   
 }
-h1 {
+h1, h3 {
     text-align: center;
+    color:cadetblue;
+    text-decoration:underline;
+    font-family: cursive;
 }
 section > p {
     width: 80%;
     margin: auto;
     text-indent: 50px;
+    color:plum;
+}
+section > ol, ul {
+    color:darkorchid;
+    border-style: dotted;
+    border-color:rgb(51, 209, 157);
+    border-width: 10px;
+    width:25%;
+    
 }

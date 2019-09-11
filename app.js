@@ -15,28 +15,28 @@ if (favpurp.toLowerCase() === 'yes' || favpurp.toLowerCase === 'y'){
 
 var pet = prompt('Do I have two pets?');
 if (pet.toLowerCase() === 'yes' || pet.toLowerCase === 'y'){
-  alert('incorrect!');
+  alert('Incorrect!');
 } else {
-  alert('correct!');
+  alert('Correct!');
 } console.log('answer is no');
 
 var city = prompt('Am I from Seattle?');
 if (city.toLowerCase() === 'yes' || city.toLowerCase === 'y'){
-  alert('incorrect!');
+  alert('Incorrect!');
 } else {
-  alert('correct!');
+  alert('Correct!');
 } console.log('answer is no');
 
 var sister = prompt('Do I have 2 sisters?');
 if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
-  alert('correct!');
+  alert('Correct!');
 } else {
-  alert('incorrect!');
+  alert('Incorrect!');
 } console.log('answer is yes');
 
 var mate = prompt('Do I have two roommates?');
 if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
-  alert('correct!');
+  alert('Correct!');
 } else {
-  alert('incorrect!');
+  alert('Incorrect!');
 } console.log('answer is yes');
