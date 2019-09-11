@@ -1,26 +1,43 @@
+/* main {
+
+} */
 body {
-    background-color: blanchedalmond;
     border-style: double;
+    border-radius: 19px;
+    border-width: 2em;
     border-color:rgb(114, 169, 216);
-   
+    background-color: blanchedalmond;
+    height: 900px;
 }
-h1, h3 {
+h1 {
     text-align: center;
     color:cadetblue;
     text-decoration:underline;
     font-family: cursive;
 }
 section > p {
-    width: 80%;
+    border-style: dashed;
+    padding: 1em;
+    width:50%;
     margin: auto;
     text-indent: 50px;
     color:plum;
 }
-section > ol, ul {
-    color:darkorchid;
+   
+.life {
+    padding:30px;
+    margin:auto;
+    width:90%;
+}
+.life > h4{
+    float: left;
+    width:30%;
+    padding: 1em;
+    color: darkorchid ;
     border-style: dotted;
     border-color:rgb(51, 209, 157);
     border-width: 10px;
-    width:25%;
-    
+    box-sizing: border-box;
+    margin: 0 10px 0 10px;
+    height: 250px;
 }
