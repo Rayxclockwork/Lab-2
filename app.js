@@ -83,7 +83,7 @@ var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
 var guess = 0;
 var pizza = prompt('Can you guess one of my favorite pizza toppings?').toLowerCase();
 console.log(topp.length);
-while (guess < 7){
+while (guess < 6){
   console.log(guess);
   for (var j = 0; j < topp.length; j++){
     if (pizza === topp[j]){
@@ -94,7 +94,7 @@ while (guess < 7){
       break;
     }
   }
-  if (guess !== 7){
+  if (guess !== 6){
     pizza = prompt('Try again!').toLowerCase();
   }
   guess++;
