@@ -34,14 +34,17 @@ function pets () {
 pets();
 
 var city = prompt('Am I from Seattle?');
-if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
-  alert('Incorrect!');
-} else if (city.toLowerCase() === 'no' || city.toLowerCase() === 'n'){
-  final++;
-  alert('Correct!');
-} else {
-  alert('Invalid response.');
-} console.log('answer is no');
+function home () {
+  if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
+    alert('Incorrect!');
+  } else if (city.toLowerCase() === 'no' || city.toLowerCase() === 'n'){
+    final++;
+    alert('Correct!');
+  } else {
+    alert('Invalid response.');
+  } console.log('answer is no');
+}
+home();
 
 var sister = prompt('Do I have 2 sisters?');
 if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
