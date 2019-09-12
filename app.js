@@ -72,25 +72,29 @@ function apartment () {
 }
 apartment();
 
-for (var i = 0; i < 4; i++){
-  var num = parseInt(prompt('Guess a number between 1 and 50'));
-  var counter = i;
-  if (num === 16){
-    final++;
-    alert('correct!');
-    break;
-  } else if (num < 16) {
-    alert('Too low!');
-  } else if (num > 16){
-    alert('Too high!');
-  } else{
-    alert('invalid response');
-  }
-  if (counter === 3){
-    alert('Incorrect. The answer was 16.');
-    console.log('answer is 16');
+function guessNum () {
+  for (var i = 0; i < 4; i++){
+    var num = parseInt(prompt('Guess a number between 1 and 50'));
+    var counter = i;
+    if (num === 16){
+      final++;
+      alert('correct!');
+      break;
+    } else if (num < 16) {
+      alert('Too low!');
+    } else if (num > 16){
+      alert('Too high!');
+    } else{
+      alert('invalid response');
+    }
+    if (counter === 3){
+      alert('Incorrect. The answer was 16.');
+      console.log('answer is 16');
+    }
   }
 }
+guessNum();
+
 var userCorrect = false;
 var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
 var guess = 0;
