@@ -21,14 +21,17 @@ function purple () {
 purple();
 
 var pet = prompt('Do I have two pets?');
-if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
-  alert('Incorrect!');
-} else if (pet.toLowerCase() === 'no' || pet.toLowerCase() === 'n'){
-  final++;
-  alert('Correct!');
-} else {
-  alert('Invalid response.');
-} console.log('answer is no');
+function pets () {
+  if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
+    alert('Incorrect!');
+  } else if (pet.toLowerCase() === 'no' || pet.toLowerCase() === 'n'){
+    final++;
+    alert('Correct!');
+  } else {
+    alert('Invalid response.');
+  } console.log('answer is no');
+}
+pets();
 
 var city = prompt('Am I from Seattle?');
 if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
