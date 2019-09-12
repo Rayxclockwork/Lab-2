@@ -11,16 +11,16 @@ var favPurp = prompt('Is my favorite color purple?');
 if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else if{
+} else if (favPurp.toLowerCase() === 'no' || favPurp.toLowerCase() === 'n'){
   alert('Incorrect!');
 } else {
-    alert('Invalid response.');
+  alert('Invalid response.');
 } console.log('answer is yes');
 
 var pet = prompt('Do I have two pets?');
 if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
   alert('Incorrect!');
-} else if{
+} else if (pet.toLowerCase() === 'no' || pet.toLowerCase() === 'n'){
   final++;
   alert('Correct!');
 } else {
@@ -30,7 +30,7 @@ if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
 var city = prompt('Am I from Seattle?');
 if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
   alert('Incorrect!');
-} else if {
+} else if (city.toLowerCase() === 'no' || city.toLowerCase() === 'n'){
   final++;
   alert('Correct!');
 } else {
@@ -41,7 +41,7 @@ var sister = prompt('Do I have 2 sisters?');
 if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else if {
+} else if (sister.toLowerCase() === 'no' || sister.toLowerCase() === 'n'){
   alert('Incorrect!');
 } else {
   alert('Invalid response');
@@ -51,7 +51,7 @@ var mate = prompt('Do I have two roommates?');
 if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else if {
+} else if (mate.toLowerCase() === 'no' || mate.toLowerCase() === 'n'){
   alert('Incorrect!');
 } else {
   alert('Invalid response.');
