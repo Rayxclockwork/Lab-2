@@ -7,7 +7,7 @@ body {
     border-width: 2em;
     border-color:rgb(114, 169, 216);
     background-color: blanchedalmond;
-    height: 900px;
+    height: 950px;
 }
 h1 {
     text-align: center;
@@ -41,5 +41,7 @@ div {
 }
 .movie {
     clear: left;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 375px;
+    color: rgb(12, 182, 182);
+    
 }
