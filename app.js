@@ -95,10 +95,10 @@ function guessNum () {
 }
 guessNum();
 
-var userCorrect = false;
-var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
-var guess = 0;
 function guessToppings () {
+  var userCorrect = false;
+  var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
+  var guess = 0;
   var pizza = prompt('Can you guess one of my favorite pizza toppings?').toLowerCase();
   console.log(topp.length);
   while (guess < 6){
@@ -107,12 +107,12 @@ function guessToppings () {
       if (pizza === topp[j]){
         final++;
         alert('Correct! All correct answers are olives, mushrooms, pineapple, and bacon.');
-        guess = 7;
+        guess = 6;
         userCorrect = true;
         break;
       }
     }
-    if (guess !== 6){
+    if (guess !== 6 ){
       pizza = prompt('Try again!').toLowerCase();
     }
     guess++;
