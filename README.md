@@ -1,2 +1,2 @@
 # Lab-2
-About me guessing game
+About me with interactive guessing game
