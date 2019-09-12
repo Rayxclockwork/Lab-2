@@ -8,43 +8,53 @@ alert('Hi, ' + person + '! Welcome to my guessing game!');
 var final = 0;
 
 var favPurp = prompt('Is my favorite color purple?');
-if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase === 'y'){
+if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else {
+} else if{
   alert('Incorrect!');
+} else {
+    alert('Invalid response.');
 } console.log('answer is yes');
 
 var pet = prompt('Do I have two pets?');
-if (pet.toLowerCase() === 'yes' || pet.toLowerCase === 'y'){
+if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
   alert('Incorrect!');
-} else {
+} else if{
   final++;
   alert('Correct!');
+} else {
+  alert('Invalid response.');
 } console.log('answer is no');
 
 var city = prompt('Am I from Seattle?');
-if (city.toLowerCase() === 'yes' || city.toLowerCase === 'y'){
+if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
   alert('Incorrect!');
-} else {
+} else if {
   final++;
   alert('Correct!');
+} else {
+  alert('Invalid response.');
 } console.log('answer is no');
 
 var sister = prompt('Do I have 2 sisters?');
 if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else {
+} else if {
   alert('Incorrect!');
+} else {
+  alert('Invalid response');
 } console.log('answer is yes');
 
 var mate = prompt('Do I have two roommates?');
 if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
   final++;
   alert('Correct!');
-} else {
+} else if {
   alert('Incorrect!');
+} else {
+  alert('Invalid response.');
 } console.log('answer is yes');
 
 
