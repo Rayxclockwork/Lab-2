@@ -15,21 +15,18 @@ h1 {
     text-decoration:underline;
     font-family: cursive;
 }
-section > p {
+.bio {
     border-style: dashed;
     padding: 1em;
     width:50%;
     margin: auto;
-    text-indent: 50px;
     color:plum;
 }
-   
-.life {
-    padding:30px;
-    margin:auto;
-    width:90%;
+p {
+    text-indent:50px;
 }
-.life > h4{
+   
+div {
     float: left;
     width:30%;
     padding: 1em;
@@ -38,6 +35,11 @@ section > p {
     border-color:rgb(51, 209, 157);
     border-width: 10px;
     box-sizing: border-box;
-    margin: 0 10px 0 10px;
+    margin: 30px 12px 30px 12px;
     height: 250px;
+    
+}
+.movie {
+    clear: left;
+    margin: 0 0 0 30px;
 }
