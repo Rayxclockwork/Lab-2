@@ -1,9 +1,13 @@
 # Lab-2
-About me with interactive guessing game
+Project name:
+
+This is an about me with an interactive guessing game. 
+Fuctionality includes questions prompted in functions, and html/css styling for the webpage.
 
 Author: Raven Delaney
 
 Reflection
 Day 4
 
-Shelby Byrd was the Driver and Raven Delaney was the Navigator for Lab 04 on 9/12/19.
+I was the driver for https://github.com/shelbybyrd/lab-02
+I was the navigator for https://github.com/Rayxclockwork/Lab-2.git
