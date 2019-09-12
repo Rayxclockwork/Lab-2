@@ -98,25 +98,29 @@ guessNum();
 var userCorrect = false;
 var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
 var guess = 0;
-var pizza = prompt('Can you guess one of my favorite pizza toppings?').toLowerCase();
-console.log(topp.length);
-while (guess < 6){
-  console.log(guess);
-  for (var j = 0; j < topp.length; j++){
-    if (pizza === topp[j]){
-      final++;
-      alert('Correct! All correct answers are olives, mushrooms, pineapple, and bacon.');
-      guess = 7;
-      userCorrect = true;
-      break;
+function guessToppings () {
+  var pizza = prompt('Can you guess one of my favorite pizza toppings?').toLowerCase();
+  console.log(topp.length);
+  while (guess < 6){
+    console.log(guess);
+    for (var j = 0; j < topp.length; j++){
+      if (pizza === topp[j]){
+        final++;
+        alert('Correct! All correct answers are olives, mushrooms, pineapple, and bacon.');
+        guess = 7;
+        userCorrect = true;
+        break;
+      }
     }
+    if (guess !== 6){
+      pizza = prompt('Try again!').toLowerCase();
+    }
+    guess++;
   }
-  if (guess !== 6){
-    pizza = prompt('Try again!').toLowerCase();
+  if (userCorrect === false){
+    alert('Out of tries! The correct answers were olives, bacon, pineapple, and mushrooms.');
   }
-  guess++;
 }
-if (userCorrect === false){
-  alert('Out of tries! The correct answers were olives, bacon, pineapple, and mushrooms.');
-}
+guessToppings();
+
 alert('You got ' + final + ' answers correct out of 7 questions!');
