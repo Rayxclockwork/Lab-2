@@ -8,14 +8,17 @@ alert('Hi, ' + person + '! Welcome to my guessing game!');
 var final = 0;
 
 var favPurp = prompt('Is my favorite color purple?');
-if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase() === 'y'){
-  final++;
-  alert('Correct!');
-} else if (favPurp.toLowerCase() === 'no' || favPurp.toLowerCase() === 'n'){
-  alert('Incorrect!');
-} else {
-  alert('Invalid response.');
-} console.log('answer is yes');
+function purple () {
+  if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase() === 'y'){
+    final++;
+    alert('Correct!');
+  } else if (favPurp.toLowerCase() === 'no' || favPurp.toLowerCase() === 'n'){
+    alert('Incorrect!');
+  } else {
+    alert('Invalid response.');
+  } console.log('answer is yes');
+}
+purple();
 
 var pet = prompt('Do I have two pets?');
 if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
