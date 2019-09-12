@@ -60,16 +60,17 @@ function family () {
 family();
 
 var mate = prompt('Do I have two roommates?');
-if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
-  final++;
-  alert('Correct!');
-} else if (mate.toLowerCase() === 'no' || mate.toLowerCase() === 'n'){
-  alert('Incorrect!');
-} else {
-  alert('Invalid response.');
-} console.log('answer is yes');
-
-
+function apartment () {
+  if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
+    final++;
+    alert('Correct!');
+  } else if (mate.toLowerCase() === 'no' || mate.toLowerCase() === 'n'){
+    alert('Incorrect!');
+  } else {
+    alert('Invalid response.');
+  } console.log('answer is yes');
+}
+apartment();
 
 for (var i = 0; i < 4; i++){
   var num = parseInt(prompt('Guess a number between 1 and 50'));
