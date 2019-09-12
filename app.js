@@ -47,14 +47,17 @@ function home () {
 home();
 
 var sister = prompt('Do I have 2 sisters?');
-if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
-  final++;
-  alert('Correct!');
-} else if (sister.toLowerCase() === 'no' || sister.toLowerCase() === 'n'){
-  alert('Incorrect!');
-} else {
-  alert('Invalid response');
-} console.log('answer is yes');
+function family () {
+  if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
+    final++;
+    alert('Correct!');
+  } else if (sister.toLowerCase() === 'no' || sister.toLowerCase() === 'n'){
+    alert('Incorrect!');
+  } else {
+    alert('Invalid response');
+  } console.log('answer is yes');
+}
+family();
 
 var mate = prompt('Do I have two roommates?');
 if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
