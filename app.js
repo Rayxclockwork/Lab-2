@@ -2,11 +2,13 @@
 
 console.log('Hello');
 
+//Prompt name
 var person = prompt('What is your name?');
 console.log('Your name is ' + person);
 alert('Hi, ' + person + '! Welcome to my guessing game!');
 var final = 0;
 
+//Question 1 - favorite color
 var favPurp = prompt('Is my favorite color purple?');
 function purple () {
   if (favPurp.toLowerCase() === 'yes' || favPurp.toLowerCase() === 'y'){
@@ -20,6 +22,7 @@ function purple () {
 }
 purple();
 
+//Question 2 - how many pets
 var pet = prompt('Do I have two pets?');
 function pets () {
   if (pet.toLowerCase() === 'yes' || pet.toLowerCase() === 'y'){
@@ -33,6 +36,7 @@ function pets () {
 }
 pets();
 
+//Question 3 - city I'm from
 var city = prompt('Am I from Seattle?');
 function home () {
   if (city.toLowerCase() === 'yes' || city.toLowerCase() === 'y'){
@@ -46,6 +50,7 @@ function home () {
 }
 home();
 
+//Question 4 - how many sisters
 var sister = prompt('Do I have 2 sisters?');
 function family () {
   if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y'){
@@ -59,6 +64,7 @@ function family () {
 }
 family();
 
+//Question 5 - how many roommates
 var mate = prompt('Do I have two roommates?');
 function apartment () {
   if (mate.toLowerCase() === 'yes' || mate.toLowerCase() === 'y'){
@@ -72,6 +78,7 @@ function apartment () {
 }
 apartment();
 
+//Question 6 - guess a number game
 function guessNum () {
   for (var i = 0; i < 4; i++){
     var num = parseInt(prompt('Guess a number between 1 and 50'));
@@ -95,6 +102,7 @@ function guessNum () {
 }
 guessNum();
 
+//Question 7 - guess what I like on pizza
 function guessToppings () {
   var userCorrect = false;
   var topp = ['olives', 'mushrooms', 'pineapple', 'bacon'];
